@@ -428,3 +428,53 @@ footer{
     color:gray;
     
 }
+
+
+
+
+footer a{
+    text-decoration: none;
+    color:gray;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+      
+        width: 600px !important;
+      }
+  }
+@media only screen and (max-width: 992px) {
+       .navigation{
+        display:none;
+    }
+
+    #signin .fa-bars{
+        display:inline;
+    }
+
+ 
+    #title{
+        font-size:30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    #date{
+        display:none;
+    }
+
+  
+  }
+
+  @media only screen and (max-width: 1328px) {
+    .container-fluid {
+        width:100% !important;
+        margin:auto;
+      }
+  }
