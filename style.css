@@ -16,3 +16,66 @@ nav{
     text-align: center;
     
 }
+
+#title{
+    font-size:80px;
+    font-weight:bold;
+}
+
+nav button, nav #date{
+font-weight:bold;
+
+
+}
+
+nav button{
+    border:none;
+    background:white;
+    padding: 5px 10px;
+    color:red;
+    font-weight:bold;
+    margin:0 10px;
+       
+}
+
+
+#signin .fa-bars{
+    display: none;
+}
+
+#signin{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signin p{
+    font-weight:bold;
+    margin-top: 10px;
+  
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items:flex-start;
+    border-bottom: 1px solid lightgray;
+    
+}
+.navigation p{
+    margin-top:15px;
+    color:black;
+    font-size:18px;
+}
+.navigation a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+    border-right:1px solid gray;
+    line-height:20px;    
+    margin:20px 0;
+    padding:0 20px 0 0;
+   
+}
