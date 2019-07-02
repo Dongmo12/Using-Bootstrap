@@ -256,3 +256,93 @@ a:hover{
        cursor: pointer;
    }
    
+.mag p{
+    color:#F72210;
+    font-weight:bold;
+    margin-top:10px;
+    }
+    .mag p:hover{
+        cursor: pointer;
+    }
+    .mag span:hover{
+        cursor: text;
+    }
+    .mag span{
+        background:#F72210;
+        color:white;
+        padding:2px 4px;
+        margin-right:5px;
+        
+    }
+    
+    .featured img,.editor img{
+        width:100%;
+    }
+    
+    .featured h5:hover, .editor h5:hover{
+     text-decoration: underline;
+     text-decoration-color: #F72210;
+    }
+    
+    .main_heading{
+        color:red;
+    }
+    
+    .us_item img{
+       width:100%;
+       float:left;
+    
+    }
+    
+    .us_item h5{
+        font-size:15px;
+    }
+    .us_item{
+     margin-bottom:20px;
+     border-bottom: 1px solid #E6E6E6;
+    }
+    
+    .main_heading{
+        color:red;
+    }
+    
+    .main_heading h4:hover{
+        cursor: pointer;
+    }
+    
+    .us_item h5:hover{
+        color:red;
+        cursor: pointer;
+    }
+    
+    .us h4:hover{
+        text-decoration: underline;
+        text-decoration-color:red;
+    }
+    
+    .digital img{
+        float:left;
+        margin-right:10px;
+        width:100px;
+       
+    }
+    
+    .digital img:hover{
+        cursor: pointer;
+    }
+    .digital{
+        position: relative;
+        background:#F4F5F6;
+        padding:20px 0 150px 5px ;
+        box-sizing: border-box;
+    }
+    .digital button{
+        position: absolute;
+        bottom:20px;
+        border:none;
+        background:red ;
+        color:white;
+        font-weight:bold;
+        padding:10px;
+    }
+    
