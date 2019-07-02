@@ -79,3 +79,82 @@ nav button{
     padding:0 20px 0 0;
    
 }
+.navigation a:last-child{
+    border:none;
+}
+a:hover{
+    color:red;
+}
+
+.overflow-auto{
+   height:1850px; 
+
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+.stories img {
+    width:100%;
+}
+
+.story_item {
+   margin-top:20px;
+}
+
+.story_item2{
+    border-top:1px solid #E6E6E6;
+    border-bottom:1px solid #E6E6E6;
+    padding: 20px 0;
+}
+.bordered_text {
+    margin-top:-1px;
+    border:1px solid #E6E6E6;
+    padding:20px;
+    box-sizing: border-box;
+    border-width: thin;
+}
+
+.more_stories{
+    font-weight:bold;
+    color:gray;
+    padding:15px 0;
+}
+
+.more_items img{
+    width:120px;
+    float:left;
+    margin:10px 10px 10px 0;
+}
+
+.more_items h6{
+    font-weight:bold;
+}
+.more_items{
+    border-top:1px solid #E6E6E6;
+    padding-top:10px;
+}
+
+.opinion_items{
+    border-bottom:1px solid #E6E6E6;
+    padding: 10px 0 25px 0;
+}
+.opinion_items img{
+    width:80px;
+    float:left;
+    margin: 0px 10px 10px 0;
+}
+
+.opinion_items h6, .opinion_items h5{
+    font-size:13px;
+    font-weight:bold;
+  
+}
+
+.opinion_items h6{
+    padding-top:10px;
+}
+.opinion_items h5{
+    color:gray;
+}
