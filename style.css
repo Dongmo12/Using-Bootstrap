@@ -1,0 +1,18 @@
+body{
+    background:#F4F5F6;
+}
+
+.container-fluid{
+    background:#FFFFFF;
+    padding-bottom:50px;
+    width:80% !important;
+    margin:auto;
+}
+
+
+nav{
+    color:white;
+    background:#F72210;
+    text-align: center;
+    
+}
